@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("my firt time trying")
-name=st.text_inport("Enter your name")
+name=st.text_input("Enter your name")
 
 if st.button("Submit"):
 
